@@ -1,0 +1,21 @@
+@import url('alap.css');
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:200%;
+}
+
+a#nagybetu {display: none;}		
+a#normalbetu {display: block;}	
+
+header, main, footer {
+	width:90%;			
+	max-width:1200px;	
+}
+
+nav#gyengenlato {			
+    position:absolute; 		
+    width:130px;				
+    right:15px;		
+    top:1px;				
+    border:2px solid black;				
+}
